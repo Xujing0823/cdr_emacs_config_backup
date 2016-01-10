@@ -4,7 +4,7 @@
 
 
 ;;;### (autoloads (racer-mode racer-find-definition) "racer" "racer.el"
-;;;;;;  (22162 26284 306603 519000))
+;;;;;;  (22162 32003 282786 532000))
 ;;; Generated autoloads from racer.el
 
 (autoload 'racer-find-definition "racer" "\
@@ -19,7 +19,7 @@ Minor mode for racer.
 
 ;;;***
 
-;;;### (autoloads nil nil ("racer-pkg.el") (22162 26284 316217 605000))
+;;;### (autoloads nil nil ("racer-pkg.el") (22162 32003 309480 713000))
 
 ;;;***
 
