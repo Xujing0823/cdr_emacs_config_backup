@@ -2,7 +2,7 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Sun Jan 10 21:50:39 2016
+;; Created Sun Jan 10 22:14:07 2016
 ;; Desktop file format version 206
 ;; Emacs version 24.3.1
 
@@ -10,10 +10,10 @@
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("load-path" "provide" "color theme" "c-d" "curl-sys" "all:" "all\\:" "all" "rtags" "auto-complete" "clang" "gtags" "clang" "hex" "0000 0100" "hex"))
+(setq search-ring '("error" "load-path" "provide" "color theme" "c-d" "curl-sys" "all:" "all\\:" "all" "rtags" "auto-complete" "clang" "gtags" "clang" "hex" "0000 0100"))
 (setq regexp-search-ring '("global" "[A" "[]"))
 (setq register-alist nil)
-(setq file-name-history '("~/.emacs.d/auto-complete/auto-complete-config.el" "~/.emacs.d/auto-complete/auto-complete.el" "~/.emacs.d/my-auto-complete-set.el" "~/.emacs.d/my-helm.el" "~/.emacs.d/my-auto-complete-set.el" "~/.emacs.d/my-gdb.el" "~/.emacs.d/smart-compile.el" "~/.emacs.d/my-theme.el" "~/.emacs.d/my-common-set.el" "~/.emacs.d/my-helm.el" "~/.emacs" "~/.emacs.d/init-load.el" "~/.emacs" "~/.emacs.d/elpa/ac-clang-readme.txt" "/home/xujing/WS/Tstools/tstools/esfilter.c" "/home/xujing/ts/1_test_pvr.es" "~/WS/Rtags/rtags/src/ClangIndexer.cpp" "~/Workspace/Rtags/rtags/src/FindSymbolsJob.cpp" "~/Workspace/Servo/servo/components/servo/main.rs" "~/.emacs.d/my-helm.el" "~/Workspace/Servo/servo/" "~/Workspace/Rustfmt/rustfmt/src/lists.rs" "~/.emacs.d/my-auto-complete-set.el" "~/.emacs.d/emacs-helm-gtags" "~/.emacs.d/my-helm.el" "~/.emacs.d/my-cedet.el" "~/.emacs.d/my-common-set.el" "~/.emacs.d/my-helm.el" "~/.emacs.d/my-auto-complete-set.el" "~/.emacs.d/emacs-helm-gtags/README.md"))
+(setq file-name-history '("~/.emacs.d/my-helm.el" "~/.emacs.d/my-theme.el" "~/.emacs.d/auto-complete/auto-complete-config.el" "~/.emacs.d/auto-complete/auto-complete.el" "~/.emacs.d/my-auto-complete-set.el" "~/.emacs.d/my-helm.el" "~/.emacs.d/my-auto-complete-set.el" "~/.emacs.d/my-gdb.el" "~/.emacs.d/smart-compile.el" "~/.emacs.d/my-theme.el" "~/.emacs.d/my-common-set.el" "~/.emacs.d/my-helm.el" "~/.emacs" "~/.emacs.d/init-load.el" "~/.emacs" "~/.emacs.d/elpa/ac-clang-readme.txt" "/home/xujing/WS/Tstools/tstools/esfilter.c" "/home/xujing/ts/1_test_pvr.es" "~/WS/Rtags/rtags/src/ClangIndexer.cpp" "~/Workspace/Rtags/rtags/src/FindSymbolsJob.cpp" "~/Workspace/Servo/servo/components/servo/main.rs" "~/.emacs.d/my-helm.el" "~/Workspace/Servo/servo/" "~/Workspace/Rustfmt/rustfmt/src/lists.rs" "~/.emacs.d/my-auto-complete-set.el" "~/.emacs.d/emacs-helm-gtags" "~/.emacs.d/my-helm.el" "~/.emacs.d/my-cedet.el" "~/.emacs.d/my-common-set.el" "~/.emacs.d/my-helm.el"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
@@ -21,40 +21,18 @@
   "my-helm.el"
   'emacs-lisp-mode
   '(auto-complete-mode linum-mode)
-  1
-  '(1244 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/xujing/.emacs.d/my-auto-complete-set.el"
-  "my-auto-complete-set.el"
-  'emacs-lisp-mode
-  '(auto-complete-mode linum-mode)
-  59
+  100
   '(nil nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
-  "/home/xujing/.emacs.d/init-load.el"
-  "init-load.el"
+  "/home/xujing/.emacs.d/my-theme.el"
+  "my-theme.el"
   'emacs-lisp-mode
   '(auto-complete-mode linum-mode)
-  988
-  '(1423 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/xujing/.emacs.d/my-gdb.el"
-  "my-gdb.el"
-  'emacs-lisp-mode
-  '(auto-complete-mode linum-mode)
-  94
+  1
   '(nil nil)
   nil
   nil
