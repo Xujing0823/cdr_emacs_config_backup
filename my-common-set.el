@@ -59,6 +59,7 @@
 (global-set-key (kbd "C-/") 'undo-only)
 
 (desktop-save-mode)
+(setq desktop-base-file-name "emacs.desktopSave")
 
 ;; font
 (add-to-list 'default-frame-alist

@@ -1,2 +1,4 @@
 *.elc
 *~
+emacs.desktopSave
+ac-comphist.dat
