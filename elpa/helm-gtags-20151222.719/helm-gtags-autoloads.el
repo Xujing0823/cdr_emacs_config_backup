@@ -11,7 +11,7 @@
 ;;;;;;  helm-gtags-find-tag helm-gtags-create-tags helm-gtags-tags-in-this-function
 ;;;;;;  helm-gtags-select-path helm-gtags-select helm-gtags-previous-history
 ;;;;;;  helm-gtags-next-history helm-gtags-clear-cache helm-gtags-clear-all-cache)
-;;;;;;  "helm-gtags" "helm-gtags.el" (22162 26293 258603 805000))
+;;;;;;  "helm-gtags" "helm-gtags.el" (22162 33716 902841 369000))
 ;;; Generated autoloads from helm-gtags.el
 
 (autoload 'helm-gtags-clear-all-cache "helm-gtags" "\
@@ -147,8 +147,8 @@ the mode if ARG is omitted or nil, and toggle it if ARG is `toggle'.
 
 ;;;***
 
-;;;### (autoloads nil nil ("helm-gtags-pkg.el") (22162 26293 273773
-;;;;;;  211000))
+;;;### (autoloads nil nil ("helm-gtags-pkg.el") (22162 33716 924282
+;;;;;;  770000))
 
 ;;;***
 
