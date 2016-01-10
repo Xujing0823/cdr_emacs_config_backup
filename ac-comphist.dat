@@ -1,0 +1,60 @@
+((("load-file" .
+   [0 0 0 0 0 0 1 0 0])
+  ("use" .
+   [1 0 0])
+  ("semantic-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("semantic" .
+   [0 0 0 1 0 0 0 0])
+  ("lambda" .
+   [0 0 0 0 2 0])
+  ("c-mode-common-hook" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("ac-source-gtags" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("ac-sources" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("BufWriter" .
+   [0 1 0 0 0 0 0 0 0])
+  ("helm-buffers" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("helm-buffer-list" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("helm-semantic" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("helm-resume" .
+   [0 0 0 0 0 0 0 0 0 1 0])
+  ("helm-gtags-find-files" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("helm-gtags-display-style" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("helm-gtags-cache-select-result" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("helm-gtags-auto-update" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("helm-gtags-ignore-case" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("custom-set-variables" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("customize" .
+   [0 0 0 0 1 0 0 0 0])
+  ("c-mode-hook" .
+   [0 0 0 0 0 0 0 0 1 0 0])
+  ("add-hook" .
+   [1 0 0 1 0 0 0 0])
+  ("helm" .
+   [1 0 0 0])
+  ("helm-gtags" .
+   [0 0 0 0 0 0 0 1 1 0])
+  ("require" .
+   [0 0 0 1 1 0 0])
+  ("load-path" .
+   [0 0 0 0 0 0 1 0 0])
+  ("add-to-list" .
+   [0 0 0 0 0 0 0 1 0 0 0])
+  ("std" .
+   [4 0 0])
+  ("io" .
+   [3 2])
+  ("copy" .
+   [0 1 0 0])))
