@@ -41,15 +41,9 @@
 (add-hook 'rust-mode-hook 'auto-complete-mode)
 (add-hook 'rust-mode-hook
           (lambda ()
-			(setq ac-sources
-                  '(
-                    ac-source-racer
-                    )
-                  )
-            )
-          )
+            (setq ac-sources '(ac-source-racer))))
 
-(load-file "/home/xujing/.emacs.d/my-helm.el")
+(load-file "~/.emacs.d/my-helm.el")
 
 ;;; some configurations of common using
 (load "~/.emacs.d/my-common-set.el")
