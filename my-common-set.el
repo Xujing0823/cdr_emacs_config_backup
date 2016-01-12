@@ -21,10 +21,10 @@
 (setq c-tab-always-indent t)
 
 ;; ;;; set indent-tabs-mode
-(setq-default indent-tabs-mode nil)
+(setq indent-tabs-mode nil)
 
 ;; C-k delete whole line 
-(setq-default kill-whole-line t)
+(setq kill-whole-line t)
 
 ;; use y or n instead of yes or no 
 (defalias 'yes-or-no-p 'y-or-n-p)
@@ -43,14 +43,9 @@
 ;; ;; don't accelerate scrolling
 (setq mouse-wheel-progressive-speed nil)
 
-;;; set Mark command 
-(global-set-key (kbd "C-'") 'set-mark-command)
-
-
 ;;;; redo
-(add-to-list 'load-path "~/.emacs.d/redo/")
-(require 'redo)
-(global-set-key (kbd "C-;") 'redo)
+(require 'redo+)
+(global-set-key (kbd "C-\\") 'redo)
 
 ;;;;; undo-no-redo
 (setq undo-no-redo t)
