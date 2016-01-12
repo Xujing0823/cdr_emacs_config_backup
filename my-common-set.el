@@ -67,7 +67,6 @@
 
 
 ;; add tab bar
-(load "~/.emacs.d/tabbar.el")
 (require 'tabbar)
 (tabbar-mode)
 (global-set-key (kbd "C-<left>") 'tabbar-backward)
