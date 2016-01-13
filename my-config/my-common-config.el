@@ -251,3 +251,6 @@
 	(indent-for-tab-command)
 	))
 (add-hook 'rust-mode-hook 'my-rust-mode-hook)
+
+
+(provide 'my-common-config)

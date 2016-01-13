@@ -50,21 +50,3 @@
       (compile command))))
 
 (provide 'smart-compile)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

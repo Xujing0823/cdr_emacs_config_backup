@@ -6,3 +6,6 @@
 ;; (setq gdb-show-main nil)
 ;; (setq gud-chdir-before-run nil)
 ;; (setq gud-tooltip-mode 1)
+
+
+(provide 'my-gdb-config)

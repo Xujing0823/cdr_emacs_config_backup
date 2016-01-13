@@ -61,5 +61,5 @@
      (define-key helm-gtags-mode-map (kbd "C-c .") 'helm-gtags-next-history)
      (define-key helm-gtags-mode-map (kbd "C-c C-t") 'helm-gtags-pop-stack)))
 
-
+(provide 'my-helm-config)
 

@@ -61,20 +61,4 @@
 (global-auto-complete-mode 1)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+(provide 'my-auto-complete-config)
