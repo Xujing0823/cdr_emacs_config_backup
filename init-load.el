@@ -6,7 +6,10 @@
 ;; (load "~/.emacs.d/my-emacs-package-config.el")
 
 ;; ;;; auto-complete
-(require 'my-auto-complete-config)
+;; (require 'my-auto-complete-config)
+
+;; company-mode
+(require 'my-company-config)
  
 ;; ;; rust-lang
 (require 'my-rust-config)
