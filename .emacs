@@ -20,8 +20,11 @@
  '(helm-gtags-display-style (quote detail))
  '(helm-gtags-ignore-case t)
  '(helm-gtags-path-style (quote absolute))
- '(racer-cmd "~/ws/Rust/Racer/racer/target/release/racer")
- '(racer-rust-src-path "~/ws/Rust/rust/src/")
+ '(package-selected-packages
+   (quote
+	(helm-rtags color-identifiers-mode autopair highlight-parentheses flycheck-swift ob-swift swift-mode tabbar rustfmt rtags redo+ racket-mode mkdown markdown-toc markdown-preview-mode markdown-mode+ history helm-package helm-make helm-gtags helm-git helm-describe-modes helm-descbinds helm-company ggtags flymake-rust flymake-racket flycheck-rust cpputils-cmake company-racer company-qml company-irony-c-headers company-irony company-cmake company-c-headers color-theme cmake-project cmake-mode cmake-ide cargo buttercup ac-racer ac-clang)))
+ '(racer-cmd "~/.cargo/bin/racer")
+ '(racer-rust-src-path "~/Workspace/rust/src")
  '(safe-local-variable-values
    (quote
 	((eval c-set-offset

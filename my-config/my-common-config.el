@@ -1,4 +1,6 @@
 
+;; (add-hook 'after-init-hook 'global-color-identifiers-mode)
+
 (setq column-number-mode t)
 
 ;;; set tab-width
@@ -39,7 +41,7 @@
 (setq show-paren-style 'parenthesis)
 
 ;; ;; another way about scroll
-(setq mouse-wheel-scroll-amount '(1 ((shift) . 1) ((control))))
+(setq mouse-wheel-scroll-amount '(4 ((shift) . 1) ((control))))
 ;; ;; don't accelerate scrolling
 (setq mouse-wheel-progressive-speed nil)
 
@@ -57,8 +59,10 @@
 (setq desktop-base-file-name "emacs.desktopSave")
 
 ;; font
+;; (add-to-list 'default-frame-alist
+;; 			 '(font . "Consolas 16"))
 (add-to-list 'default-frame-alist
-			 '(font . "Consolas 16"))
+			 '(font . "Monaco 24"))
 
 
 ;; add tab bar

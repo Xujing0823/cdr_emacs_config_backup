@@ -35,3 +35,6 @@
 
 ;; gdb
 (require 'my-gdb-config)
+
+;;; rtags
+(require 'my-rtags-config)
